@@ -1,0 +1,11 @@
+{
+  "model": "Whisper tiny multilingual; FP16 weights with upstream conversion defaults",
+  "original_checkpoint_url": "https://openaipublic.azureedge.net/main/whisper/models/65147644a518d12f04e32d6f3b26facc3f8dd46e5390956a9424a650c0ce22b9/tiny.pt",
+  "original_sha256": "65147644a518d12f04e32d6f3b26facc3f8dd46e5390956a9424a650c0ce22b9",
+  "ggml_sha256": "a38bcb31dcd68cf7d9a630e2148ccf0656f95ac87c5bcbc4064a689f383b2059",
+  "ggml_bytes": 77691713,
+  "whisper_cpp_commit": "a8d002cfd879315632a579e73f0148d06959de36",
+  "original_whisper_commit": "25639fc17ddc013d56c594bfbf7644f2185fad84",
+  "conversion": "whisper.cpp models/convert-pt-to-ggml.py; torch 2.6.0+cpu; original whisper assets",
+  "license": "MIT; see OPENAI_WHISPER_LICENSE"
+}

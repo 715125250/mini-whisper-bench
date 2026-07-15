@@ -1,0 +1,6 @@
+build/
+bin/
+*.bin
+models/*.bin
+results/*.tmp
+__pycache__/

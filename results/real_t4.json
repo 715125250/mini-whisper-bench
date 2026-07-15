@@ -1,0 +1,34 @@
+{
+  "mode": "REAL_WHISPER_TINY_CPU",
+  "timestamp_utc": "2026-09-24T01:00:00.395229+00:00",
+  "wav_sha256": "59dfb9a4acb36fe2a2affc14bacbee2920ff435cb13cc314a08c13f66ba7860e",
+  "audio_seconds": 11.0,
+  "language": "en",
+  "warmup_excluded": 1,
+  "repeat": 3,
+  "mean_client_ms": 580.1250329999069,
+  "requests": [
+    {
+      "text": " And so my fellow Americans ask not what your country can do for you ask what you can do for your country.\n",
+      "model_wait_ms": 0.000871,
+      "processing_ms": 484.138737,
+      "handler_ms": 484.139608,
+      "client_ms": 486.01284100004705
+    },
+    {
+      "text": " And so my fellow Americans ask not what your country can do for you ask what you can do for your country.\n",
+      "model_wait_ms": 0.000721,
+      "processing_ms": 662.030706,
+      "handler_ms": 662.031427,
+      "client_ms": 670.7994999997027
+    },
+    {
+      "text": " And so my fellow Americans ask not what your country can do for you ask what you can do for your country.\n",
+      "model_wait_ms": 0.00028,
+      "processing_ms": 581.951286,
+      "handler_ms": 581.951566,
+      "client_ms": 583.5627579999709
+    }
+  ],
+  "note": "Sequential requests. Small-sample timing only; no concurrency or accuracy benchmark claim."
+}

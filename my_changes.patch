@@ -1,0 +1,31 @@
+--- a/examples/server/server.cpp
++++ b/examples/server/server.cpp
+@@ -784,8 +784,10 @@
+     });
+ 
+     svr->Post(sparams.request_path + sparams.inference_path, [&](const Request &req, Response &res){
+-        // acquire whisper model mutex lock
++        const auto request_start = std::chrono::steady_clock::now();
++        // Model context is shared: serialize inference to avoid concurrent use.
+         std::lock_guard<std::mutex> lock(whisper_mutex);
++        const auto model_lock_acquired = std::chrono::steady_clock::now();
+ 
+         // first check user requested fields of the request
+         if (!req.has_file("file"))
+@@ -1089,8 +1091,15 @@
+         else
+         {
+             std::string results = output_str(ctx, params, pcmf32s);
++            const auto finished = std::chrono::steady_clock::now();
++            const auto milliseconds = [](auto duration) {
++                return std::chrono::duration<double, std::milli>(duration).count();
++            };
+             json jres = json{
+-                {"text", results}
++                {"text", results},
++                {"model_wait_ms", milliseconds(model_lock_acquired - request_start)},
++                {"processing_ms", milliseconds(finished - model_lock_acquired)},
++                {"handler_ms", milliseconds(finished - request_start)}
+             };
+             res.set_content(jres.dump(-1, ' ', false, json::error_handler_t::replace),
+                             "application/json");

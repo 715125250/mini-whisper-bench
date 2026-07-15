@@ -1,0 +1,9 @@
+{
+  "platform": "Linux-6.18.44-x86_64-with-glibc2.39",
+  "python": "3.12.14",
+  "logical_cpus_visible": 9,
+  "compiler": "g++ (Ubuntu 13.3.0-6ubuntu2~24.04) 13.3.0",
+  "backend": "CPU",
+  "model": "Whisper tiny multilingual",
+  "upstream": "whisper.cpp v1.7.6 with timing-only patch"
+}

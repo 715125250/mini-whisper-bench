@@ -1,0 +1,272 @@
+hparams: {'n_mels': 80, 'n_vocab': 51865, 'n_audio_ctx': 1500, 'n_audio_state': 384, 'n_audio_head': 6, 'n_audio_layer': 4, 'n_text_ctx': 448, 'n_text_state': 384, 'n_text_head': 6, 'n_text_layer': 4}
+Processing variable:  decoder.positional_embedding  with shape:  (448, 384)
+  Converting to float32
+Processing variable:  encoder.positional_embedding  with shape:  (1500, 384)
+  Converting to float32
+Processing variable:  decoder.token_embedding.weight  with shape:  (51865, 384)
+Processing variable:  decoder.blocks.0.mlp_ln.weight  with shape:  (384,)
+  Converting to float32
+Processing variable:  decoder.blocks.0.mlp_ln.bias  with shape:  (384,)
+  Converting to float32
+Processing variable:  decoder.blocks.0.mlp.0.weight  with shape:  (1536, 384)
+Processing variable:  decoder.blocks.0.mlp.0.bias  with shape:  (1536,)
+  Converting to float32
+Processing variable:  decoder.blocks.0.mlp.2.weight  with shape:  (384, 1536)
+Processing variable:  decoder.blocks.0.mlp.2.bias  with shape:  (384,)
+  Converting to float32
+Processing variable:  decoder.blocks.0.attn_ln.weight  with shape:  (384,)
+  Converting to float32
+Processing variable:  decoder.blocks.0.attn_ln.bias  with shape:  (384,)
+  Converting to float32
+Processing variable:  decoder.blocks.0.attn.query.weight  with shape:  (384, 384)
+Processing variable:  decoder.blocks.0.attn.query.bias  with shape:  (384,)
+  Converting to float32
+Processing variable:  decoder.blocks.0.attn.key.weight  with shape:  (384, 384)
+Processing variable:  decoder.blocks.0.attn.value.weight  with shape:  (384, 384)
+Processing variable:  decoder.blocks.0.attn.value.bias  with shape:  (384,)
+  Converting to float32
+Processing variable:  decoder.blocks.0.attn.out.weight  with shape:  (384, 384)
+Processing variable:  decoder.blocks.0.attn.out.bias  with shape:  (384,)
+  Converting to float32
+Processing variable:  decoder.blocks.0.cross_attn_ln.weight  with shape:  (384,)
+  Converting to float32
+Processing variable:  decoder.blocks.0.cross_attn_ln.bias  with shape:  (384,)
+  Converting to float32
+Processing variable:  decoder.blocks.0.cross_attn.query.weight  with shape:  (384, 384)
+Processing variable:  decoder.blocks.0.cross_attn.query.bias  with shape:  (384,)
+  Converting to float32
+Processing variable:  decoder.blocks.0.cross_attn.key.weight  with shape:  (384, 384)
+Processing variable:  decoder.blocks.0.cross_attn.value.weight  with shape:  (384, 384)
+Processing variable:  decoder.blocks.0.cross_attn.value.bias  with shape:  (384,)
+  Converting to float32
+Processing variable:  decoder.blocks.0.cross_attn.out.weight  with shape:  (384, 384)
+Processing variable:  decoder.blocks.0.cross_attn.out.bias  with shape:  (384,)
+  Converting to float32
+Processing variable:  decoder.blocks.1.mlp_ln.weight  with shape:  (384,)
+  Converting to float32
+Processing variable:  decoder.blocks.1.mlp_ln.bias  with shape:  (384,)
+  Converting to float32
+Processing variable:  decoder.blocks.1.mlp.0.weight  with shape:  (1536, 384)
+Processing variable:  decoder.blocks.1.mlp.0.bias  with shape:  (1536,)
+  Converting to float32
+Processing variable:  decoder.blocks.1.mlp.2.weight  with shape:  (384, 1536)
+Processing variable:  decoder.blocks.1.mlp.2.bias  with shape:  (384,)
+  Converting to float32
+Processing variable:  decoder.blocks.1.attn_ln.weight  with shape:  (384,)
+  Converting to float32
+Processing variable:  decoder.blocks.1.attn_ln.bias  with shape:  (384,)
+  Converting to float32
+Processing variable:  decoder.blocks.1.attn.query.weight  with shape:  (384, 384)
+Processing variable:  decoder.blocks.1.attn.query.bias  with shape:  (384,)
+  Converting to float32
+Processing variable:  decoder.blocks.1.attn.key.weight  with shape:  (384, 384)
+Processing variable:  decoder.blocks.1.attn.value.weight  with shape:  (384, 384)
+Processing variable:  decoder.blocks.1.attn.value.bias  with shape:  (384,)
+  Converting to float32
+Processing variable:  decoder.blocks.1.attn.out.weight  with shape:  (384, 384)
+Processing variable:  decoder.blocks.1.attn.out.bias  with shape:  (384,)
+  Converting to float32
+Processing variable:  decoder.blocks.1.cross_attn_ln.weight  with shape:  (384,)
+  Converting to float32
+Processing variable:  decoder.blocks.1.cross_attn_ln.bias  with shape:  (384,)
+  Converting to float32
+Processing variable:  decoder.blocks.1.cross_attn.query.weight  with shape:  (384, 384)
+Processing variable:  decoder.blocks.1.cross_attn.query.bias  with shape:  (384,)
+  Converting to float32
+Processing variable:  decoder.blocks.1.cross_attn.key.weight  with shape:  (384, 384)
+Processing variable:  decoder.blocks.1.cross_attn.value.weight  with shape:  (384, 384)
+Processing variable:  decoder.blocks.1.cross_attn.value.bias  with shape:  (384,)
+  Converting to float32
+Processing variable:  decoder.blocks.1.cross_attn.out.weight  with shape:  (384, 384)
+Processing variable:  decoder.blocks.1.cross_attn.out.bias  with shape:  (384,)
+  Converting to float32
+Processing variable:  decoder.blocks.2.mlp_ln.weight  with shape:  (384,)
+  Converting to float32
+Processing variable:  decoder.blocks.2.mlp_ln.bias  with shape:  (384,)
+  Converting to float32
+Processing variable:  decoder.blocks.2.mlp.0.weight  with shape:  (1536, 384)
+Processing variable:  decoder.blocks.2.mlp.0.bias  with shape:  (1536,)
+  Converting to float32
+Processing variable:  decoder.blocks.2.mlp.2.weight  with shape:  (384, 1536)
+Processing variable:  decoder.blocks.2.mlp.2.bias  with shape:  (384,)
+  Converting to float32
+Processing variable:  decoder.blocks.2.attn_ln.weight  with shape:  (384,)
+  Converting to float32
+Processing variable:  decoder.blocks.2.attn_ln.bias  with shape:  (384,)
+  Converting to float32
+Processing variable:  decoder.blocks.2.attn.query.weight  with shape:  (384, 384)
+Processing variable:  decoder.blocks.2.attn.query.bias  with shape:  (384,)
+  Converting to float32
+Processing variable:  decoder.blocks.2.attn.key.weight  with shape:  (384, 384)
+Processing variable:  decoder.blocks.2.attn.value.weight  with shape:  (384, 384)
+Processing variable:  decoder.blocks.2.attn.value.bias  with shape:  (384,)
+  Converting to float32
+Processing variable:  decoder.blocks.2.attn.out.weight  with shape:  (384, 384)
+Processing variable:  decoder.blocks.2.attn.out.bias  with shape:  (384,)
+  Converting to float32
+Processing variable:  decoder.blocks.2.cross_attn_ln.weight  with shape:  (384,)
+  Converting to float32
+Processing variable:  decoder.blocks.2.cross_attn_ln.bias  with shape:  (384,)
+  Converting to float32
+Processing variable:  decoder.blocks.2.cross_attn.query.weight  with shape:  (384, 384)
+Processing variable:  decoder.blocks.2.cross_attn.query.bias  with shape:  (384,)
+  Converting to float32
+Processing variable:  decoder.blocks.2.cross_attn.key.weight  with shape:  (384, 384)
+Processing variable:  decoder.blocks.2.cross_attn.value.weight  with shape:  (384, 384)
+Processing variable:  decoder.blocks.2.cross_attn.value.bias  with shape:  (384,)
+  Converting to float32
+Processing variable:  decoder.blocks.2.cross_attn.out.weight  with shape:  (384, 384)
+Processing variable:  decoder.blocks.2.cross_attn.out.bias  with shape:  (384,)
+  Converting to float32
+Processing variable:  decoder.blocks.3.mlp_ln.weight  with shape:  (384,)
+  Converting to float32
+Processing variable:  decoder.blocks.3.mlp_ln.bias  with shape:  (384,)
+  Converting to float32
+Processing variable:  decoder.blocks.3.mlp.0.weight  with shape:  (1536, 384)
+Processing variable:  decoder.blocks.3.mlp.0.bias  with shape:  (1536,)
+  Converting to float32
+Processing variable:  decoder.blocks.3.mlp.2.weight  with shape:  (384, 1536)
+Processing variable:  decoder.blocks.3.mlp.2.bias  with shape:  (384,)
+  Converting to float32
+Processing variable:  decoder.blocks.3.attn_ln.weight  with shape:  (384,)
+  Converting to float32
+Processing variable:  decoder.blocks.3.attn_ln.bias  with shape:  (384,)
+  Converting to float32
+Processing variable:  decoder.blocks.3.attn.query.weight  with shape:  (384, 384)
+Processing variable:  decoder.blocks.3.attn.query.bias  with shape:  (384,)
+  Converting to float32
+Processing variable:  decoder.blocks.3.attn.key.weight  with shape:  (384, 384)
+Processing variable:  decoder.blocks.3.attn.value.weight  with shape:  (384, 384)
+Processing variable:  decoder.blocks.3.attn.value.bias  with shape:  (384,)
+  Converting to float32
+Processing variable:  decoder.blocks.3.attn.out.weight  with shape:  (384, 384)
+Processing variable:  decoder.blocks.3.attn.out.bias  with shape:  (384,)
+  Converting to float32
+Processing variable:  decoder.blocks.3.cross_attn_ln.weight  with shape:  (384,)
+  Converting to float32
+Processing variable:  decoder.blocks.3.cross_attn_ln.bias  with shape:  (384,)
+  Converting to float32
+Processing variable:  decoder.blocks.3.cross_attn.query.weight  with shape:  (384, 384)
+Processing variable:  decoder.blocks.3.cross_attn.query.bias  with shape:  (384,)
+  Converting to float32
+Processing variable:  decoder.blocks.3.cross_attn.key.weight  with shape:  (384, 384)
+Processing variable:  decoder.blocks.3.cross_attn.value.weight  with shape:  (384, 384)
+Processing variable:  decoder.blocks.3.cross_attn.value.bias  with shape:  (384,)
+  Converting to float32
+Processing variable:  decoder.blocks.3.cross_attn.out.weight  with shape:  (384, 384)
+Processing variable:  decoder.blocks.3.cross_attn.out.bias  with shape:  (384,)
+  Converting to float32
+Processing variable:  decoder.ln.weight  with shape:  (384,)
+  Converting to float32
+Processing variable:  decoder.ln.bias  with shape:  (384,)
+  Converting to float32
+Processing variable:  encoder.conv1.weight  with shape:  (384, 80, 3)
+Processing variable:  encoder.conv1.bias  with shape:  (384,)
+  Reshaped variable: encoder.conv1.bias to shape:  (384, 1)
+  Converting to float32
+Processing variable:  encoder.conv2.weight  with shape:  (384, 384, 3)
+Processing variable:  encoder.conv2.bias  with shape:  (384,)
+  Reshaped variable: encoder.conv2.bias to shape:  (384, 1)
+  Converting to float32
+Processing variable:  encoder.blocks.0.mlp_ln.weight  with shape:  (384,)
+  Converting to float32
+Processing variable:  encoder.blocks.0.mlp_ln.bias  with shape:  (384,)
+  Converting to float32
+Processing variable:  encoder.blocks.0.mlp.0.weight  with shape:  (1536, 384)
+Processing variable:  encoder.blocks.0.mlp.0.bias  with shape:  (1536,)
+  Converting to float32
+Processing variable:  encoder.blocks.0.mlp.2.weight  with shape:  (384, 1536)
+Processing variable:  encoder.blocks.0.mlp.2.bias  with shape:  (384,)
+  Converting to float32
+Processing variable:  encoder.blocks.0.attn_ln.weight  with shape:  (384,)
+  Converting to float32
+Processing variable:  encoder.blocks.0.attn_ln.bias  with shape:  (384,)
+  Converting to float32
+Processing variable:  encoder.blocks.0.attn.query.weight  with shape:  (384, 384)
+Processing variable:  encoder.blocks.0.attn.query.bias  with shape:  (384,)
+  Converting to float32
+Processing variable:  encoder.blocks.0.attn.key.weight  with shape:  (384, 384)
+Processing variable:  encoder.blocks.0.attn.value.weight  with shape:  (384, 384)
+Processing variable:  encoder.blocks.0.attn.value.bias  with shape:  (384,)
+  Converting to float32
+Processing variable:  encoder.blocks.0.attn.out.weight  with shape:  (384, 384)
+Processing variable:  encoder.blocks.0.attn.out.bias  with shape:  (384,)
+  Converting to float32
+Processing variable:  encoder.blocks.1.mlp_ln.weight  with shape:  (384,)
+  Converting to float32
+Processing variable:  encoder.blocks.1.mlp_ln.bias  with shape:  (384,)
+  Converting to float32
+Processing variable:  encoder.blocks.1.mlp.0.weight  with shape:  (1536, 384)
+Processing variable:  encoder.blocks.1.mlp.0.bias  with shape:  (1536,)
+  Converting to float32
+Processing variable:  encoder.blocks.1.mlp.2.weight  with shape:  (384, 1536)
+Processing variable:  encoder.blocks.1.mlp.2.bias  with shape:  (384,)
+  Converting to float32
+Processing variable:  encoder.blocks.1.attn_ln.weight  with shape:  (384,)
+  Converting to float32
+Processing variable:  encoder.blocks.1.attn_ln.bias  with shape:  (384,)
+  Converting to float32
+Processing variable:  encoder.blocks.1.attn.query.weight  with shape:  (384, 384)
+Processing variable:  encoder.blocks.1.attn.query.bias  with shape:  (384,)
+  Converting to float32
+Processing variable:  encoder.blocks.1.attn.key.weight  with shape:  (384, 384)
+Processing variable:  encoder.blocks.1.attn.value.weight  with shape:  (384, 384)
+Processing variable:  encoder.blocks.1.attn.value.bias  with shape:  (384,)
+  Converting to float32
+Processing variable:  encoder.blocks.1.attn.out.weight  with shape:  (384, 384)
+Processing variable:  encoder.blocks.1.attn.out.bias  with shape:  (384,)
+  Converting to float32
+Processing variable:  encoder.blocks.2.mlp_ln.weight  with shape:  (384,)
+  Converting to float32
+Processing variable:  encoder.blocks.2.mlp_ln.bias  with shape:  (384,)
+  Converting to float32
+Processing variable:  encoder.blocks.2.mlp.0.weight  with shape:  (1536, 384)
+Processing variable:  encoder.blocks.2.mlp.0.bias  with shape:  (1536,)
+  Converting to float32
+Processing variable:  encoder.blocks.2.mlp.2.weight  with shape:  (384, 1536)
+Processing variable:  encoder.blocks.2.mlp.2.bias  with shape:  (384,)
+  Converting to float32
+Processing variable:  encoder.blocks.2.attn_ln.weight  with shape:  (384,)
+  Converting to float32
+Processing variable:  encoder.blocks.2.attn_ln.bias  with shape:  (384,)
+  Converting to float32
+Processing variable:  encoder.blocks.2.attn.query.weight  with shape:  (384, 384)
+Processing variable:  encoder.blocks.2.attn.query.bias  with shape:  (384,)
+  Converting to float32
+Processing variable:  encoder.blocks.2.attn.key.weight  with shape:  (384, 384)
+Processing variable:  encoder.blocks.2.attn.value.weight  with shape:  (384, 384)
+Processing variable:  encoder.blocks.2.attn.value.bias  with shape:  (384,)
+  Converting to float32
+Processing variable:  encoder.blocks.2.attn.out.weight  with shape:  (384, 384)
+Processing variable:  encoder.blocks.2.attn.out.bias  with shape:  (384,)
+  Converting to float32
+Processing variable:  encoder.blocks.3.mlp_ln.weight  with shape:  (384,)
+  Converting to float32
+Processing variable:  encoder.blocks.3.mlp_ln.bias  with shape:  (384,)
+  Converting to float32
+Processing variable:  encoder.blocks.3.mlp.0.weight  with shape:  (1536, 384)
+Processing variable:  encoder.blocks.3.mlp.0.bias  with shape:  (1536,)
+  Converting to float32
+Processing variable:  encoder.blocks.3.mlp.2.weight  with shape:  (384, 1536)
+Processing variable:  encoder.blocks.3.mlp.2.bias  with shape:  (384,)
+  Converting to float32
+Processing variable:  encoder.blocks.3.attn_ln.weight  with shape:  (384,)
+  Converting to float32
+Processing variable:  encoder.blocks.3.attn_ln.bias  with shape:  (384,)
+  Converting to float32
+Processing variable:  encoder.blocks.3.attn.query.weight  with shape:  (384, 384)
+Processing variable:  encoder.blocks.3.attn.query.bias  with shape:  (384,)
+  Converting to float32
+Processing variable:  encoder.blocks.3.attn.key.weight  with shape:  (384, 384)
+Processing variable:  encoder.blocks.3.attn.value.weight  with shape:  (384, 384)
+Processing variable:  encoder.blocks.3.attn.value.bias  with shape:  (384,)
+  Converting to float32
+Processing variable:  encoder.blocks.3.attn.out.weight  with shape:  (384, 384)
+Processing variable:  encoder.blocks.3.attn.out.bias  with shape:  (384,)
+  Converting to float32
+Processing variable:  encoder.ln_post.weight  with shape:  (384,)
+  Converting to float32
+Processing variable:  encoder.ln_post.bias  with shape:  (384,)
+  Converting to float32
+Done. Output file:  mini_whisper/models/ggml-model.bin
+
