@@ -5,5 +5,5 @@
   "compiler": "g++ (Ubuntu 13.3.0-6ubuntu2~24.04) 13.3.0",
   "backend": "CPU",
   "model": "Whisper tiny multilingual",
-  "upstream": "whisper.cpp v1.7.6 with timing-only patch"
+  "upstream": "whisper.cpp v1.7.6 with bounded thread pool, admission-control, and timing patch"
 }

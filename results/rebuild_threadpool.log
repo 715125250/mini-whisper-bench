@@ -1,0 +1,6 @@
+[ 25%] Built target ggml-base
+[ 68%] Built target ggml-cpu
+[ 74%] Built target ggml
+[ 80%] Built target whisper
+[ 94%] Built target common
+[100%] Built target whisper-server
